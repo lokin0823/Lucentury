@@ -1,0 +1,319 @@
+.page-home{
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background-color: #fff;
+}
+.logo img{
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hero {
+  position: relative;
+  background-image: url(images1/背景4.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  color: #000000;
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  position: absolute;  /* 使背景貼合頁面左邊 */
+  left: 0;  /* 靠左 */
+  background-color: rgba(236, 236, 236, 0.609); /* 半透明白色背景 */
+  padding: 20px 20px;
+  text-align: left; /* 文字靠左對齊 */
+  max-width: 400px; /* 設定最大寬度 */
+  width: 50%; /* 讓文字區塊擴展至最大寬度 */
+}
+.hero-text h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5)
+}
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+.hero-buttons{
+  position: absolute;  /* 絕對定位 */
+  top: 75%;
+  left: 0;
+  width:100%;
+  display : flex;
+  gap: 20px; /* 按鈕之間的間距 */
+  padding-left: 30px; /* 按鈕與頁面邊界的間距 */
+  margin-top: 20px;
+}
+.button {
+  background-color: rgb(255, 253, 133);
+  color: #f391d9;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 6px; /* 按鈕圓角 */
+  font-size: 18px;
+}
+
+.page-menu {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background-image: url(images1/背景2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.content-wrapper1{
+  background-color: rgba(231, 231, 231, 0.725);
+  padding: 100px;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.section-title{
+  text-align: center;
+  font-size: 60px;
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 40px;
+  color: #4b4ba3;
+}
+.section-subtitle{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #61009a;
+}
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 4px;
+  color: #333;
+}
+.product-title1{
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0 4px;
+  color:rgb(5, 0, 161);
+}
+.product {
+ width: 200px;
+  text-align: center;
+}
+.product img {
+  width: 180px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 8px;
+}
+
+.product-subtitle {
+  font-size: 15px;
+  color: #505050;
+  margin-bottom: 6px;
+}
+.price {
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+}
+.section-divider{
+  border: none;
+  border-top: 4px solid #ccc;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.page-about{
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background-image: url(images1/背景1.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.content-wrapper4{
+  background-color: rgba(231, 231, 231, 0.725);
+  padding: 50px;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.brand-section{
+  text-align: center;
+  color: #333;
+  padding: 60px 20px;
+}
+.brand-logo{
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.brand title{
+  font-size: 32px;
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.brand-description p {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #a12727;
+  text-align: justify;
+}
+
+.page-notes {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background-image: url(images1/背景3.JPG);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.content-wrapper2{
+  background-color: rgba(231, 231, 231, 0.725);
+  padding: 100px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.title-1{
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-size:50px;
+  text-align: center;
+}
+.description-1{
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #000000;
+  text-align: justify;
+}
+.title-2{
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-size:50px;
+  text-align: center;
+}
+.description-2{
+  font-size: 20px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #000000;
+  text-align: justify;
+}
+
+.page-contact{
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background-image: url(images1/背景2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.content-wrapper3{
+  background-color: rgba(231, 231, 231, 0.725);
+  padding: 80px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.contact{
+  text-align: center;
+  font-size: 60px;
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 40px;
+}
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.about-column {
+  width: 30%;
+  min-width: 200px;
+  margin: 10px;
+  font-size: 18px;
+}
+.red {
+  color: #c00000;
+  font-weight: bold;
+}
+.qrcode {
+  width: 80px;
+  margin-top: 5px;
+}
+.social-row{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social-row img {
+  width: 30px;
+  height: auto;
+}
+.link{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #523f2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+
